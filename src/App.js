@@ -67,7 +67,7 @@ function App() {
           return data['fips'] === id
         })
 
-          tooltip.text(()=> `${county["area_name"]}, ${county["state"]} `)
+          tooltip.text(()=> `${county["area_name"]}, ${county["state"]} ${county["bachelorsOrHigher"]}%`)
           .attr("data-education", county["bachelorsOrHigher"])
       })
       .on('mouseout', (event, item)=> {
@@ -77,13 +77,13 @@ function App() {
 
     const legend = d3.select("#legend")
       .append("svg")
-      .attr("width", 500)
+      .attr("width", 800)
       .attr("height", 50)
       .selectAll('g')
       .data(legendColors)
       .enter()
       .append('g')
-      .attr("transform", (d, i) => `translate(${i * 24 + 325}, 0)`);
+      .attr("transform", (d, i) => `translate(${i * 25 + 525}, 20)`);
 
     legend.append("rect")
       .attr("width", 24)
@@ -96,7 +96,7 @@ function App() {
       .text((d, i) => legendLabels[i])
       .style('font-size', "9px")
       .attr("y", 16)
-      .attr("x", -8);
+      .attr("x", 16);
 
   }
 
