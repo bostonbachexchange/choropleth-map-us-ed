@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/choropleth-map-us-ed/static/css/main.a2401ec3.css",
+    "main.js": "/choropleth-map-us-ed/static/js/main.73e66a3e.js",
+    "static/js/787.477246a0.chunk.js": "/choropleth-map-us-ed/static/js/787.477246a0.chunk.js",
+    "index.html": "/choropleth-map-us-ed/index.html",
+    "main.a2401ec3.css.map": "/choropleth-map-us-ed/static/css/main.a2401ec3.css.map",
+    "main.73e66a3e.js.map": "/choropleth-map-us-ed/static/js/main.73e66a3e.js.map",
+    "787.477246a0.chunk.js.map": "/choropleth-map-us-ed/static/js/787.477246a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2401ec3.css",
+    "static/js/main.73e66a3e.js"
+  ]
+}
